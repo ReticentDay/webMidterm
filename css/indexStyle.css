@@ -1,0 +1,113 @@
+header{
+  display: block;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+header .btn{
+  margin-top: 11px;
+}
+
+.tittle_bar{
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+
+.tittle_bar .btn{
+  display: inline-block;
+}
+
+nav{
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/wood-nature-sun-forest.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav_box{
+  height: 300px;
+  width: 50%;
+  background-color: #ffffff;
+  opacity:0.5;
+  position: absolute;
+  top:140px;
+  left: 25%;
+  z-index:1;
+}
+
+.nav_text{
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  text-align:center;
+  position: absolute;
+  top:140px;
+  left: 25%;
+  z-index:2;
+}
+
+.nav_text_box{
+  font-weight:bold;
+  text-align:center;
+  padding-top: 80px;
+}
+
+nav .btn{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_box{
+  display: block;
+
+}
+
+.img_main{
+  display: inline-block;
+  width: 60%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.quteTrr{
+  background-image: url(/img/landscape-tree-nature-log-158033.jpeg);
+}
+
+.parallelogram {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  background: rgb(146,208,80);
+  transform: skew(17deg);
+  height: 400px;
+}
+
+.rectangle{
+  display: inline-block;
+  position: absolute;
+  left: 60%;
+  width: 40%;
+  height: 400px;
+  background: rgb(146,208,80);
+  height: 400px;
+}
+
+.pLeft{
+  left: 10%;
+  transform: skew(-17deg);
+}
+
+.rLeft{
+  left: 0%;
+}
+
+.mRight{
+  float: right;
+}
