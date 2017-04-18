@@ -1,27 +1,131 @@
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 900;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+ }
+
 body{
-  background: rgb(146,208,80);
+  background: rgb(167,207,139);
   margin: 0px;
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn{
   display: block;
-  font: 18px/1 "Arial Black";
+  font: 18px/1 'Noto Sans TC', sans-serif;
   background: rgb(146,208,80);
   padding: 10px;
   border: 0px;
+  box-shadow:3px 3px 3px 0px #222222;
 }
 
 .btn:hover{
   background: rgb(250, 250, 250);
 }
 
+.btn:active{
+  background: rgb(250, 250, 250);
+  box-shadow:1px 1px 3px 0px #222222;
+}
+
 p{
-  font: 18px/1 "Arial Black";
+  font: 18px/1 'Noto Sans TC', sans-serif;
 }
 
 h1{
-  font: 40px/1 "Arial Black";
+  font: 40px/1 'Noto Sans TC', sans-serif;
+}
+
+header{
+  display: block;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+header .btn{
+  margin-top: 11px;
+}
+
+.header_box_shadow{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  z-index:2;
+  box-shadow:0px 3px 3px 0px #222222;
+}
+
+.tittle_bar{
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+
+.tittle_bar .btn{
+  display: inline-block;
+}
+
+footer{
+  height: 54px;
+  width: 100%;
+  background-color: #ffffff;
+
+}
+
+footer p{
+  display: block;
+  float: left;
+  margin-left: 10px;
+  font: 18px/1 'Noto Sans TC', sans-serif;
+}
+
+.footer_box_shadow{
+  position: relative;
+  width: 100%;
+  height: 54px;
+  z-index:1;
+  box-shadow:0px -3px 3px 0px #222222;
 }

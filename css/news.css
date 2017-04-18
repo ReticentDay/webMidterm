@@ -1,0 +1,40 @@
+nav{
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/wood-nature-sun-forest.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav_box{
+  height: 60px;
+  width: 30%;
+  background-color: #ffffff;
+  opacity:0.5;
+  position: relative;
+  top:70px;
+  left: 65%;
+  z-index:2;
+  text-align: center;
+}
+
+.nav_box h1{
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.main_box{
+  display: block;
+  height: 300px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius:10px;
+  box-shadow:0px 3px 4px 0px #222222;
+}

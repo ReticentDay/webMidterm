@@ -1,32 +1,23 @@
-header{
-  display: block;
-  height: 60px;
-  background-color: #ffffff;
-}
-
-header .btn{
-  margin-top: 11px;
-}
-
-.tittle_bar{
-  display: block;
-  float: right;
-  margin-right: 10px;
-}
-
-.tittle_bar .btn{
-  display: inline-block;
-}
-
 nav{
   display: block;
   width: 100%;
   height: 400px;
-  background-image: url(/img/wood-nature-sun-forest.jpg);
+  background-image: url(../img/wood-nature-sun-forest.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+
+}
+
+.nav_box_shadow{
+  display: block;
+  box-shadow:0px 3px 3px 0px #222222;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: 400px;
+  z-index:1;
 }
 
 .nav_box{
@@ -37,7 +28,7 @@ nav{
   position: absolute;
   top:140px;
   left: 25%;
-  z-index:1;
+  z-index:2;
 }
 
 .nav_text{
@@ -48,7 +39,7 @@ nav{
   position: absolute;
   top:140px;
   left: 25%;
-  z-index:2;
+  z-index:3;
 }
 
 .nav_text_box{
@@ -64,7 +55,7 @@ nav .btn{
 
 .main_box{
   display: block;
-
+  height: 400px;
 }
 
 .img_main{
@@ -72,11 +63,22 @@ nav .btn{
   width: 60%;
   height: 400px;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: left center;
+  background-size:cover;
+  float: left;
+  box-shadow:inset 0px 3px 3px 0px #222222;
 }
 
 .quteTrr{
-  background-image: url(/img/landscape-tree-nature-log-158033.jpeg);
+  background-image: url(../img/landscape-tree-nature-log-158033.jpeg);
+}
+
+.moreTrr{
+  background-image: url(../img/pexels-photo-113338.jpeg);
+}
+
+.knowTrr{
+  background-image: url(../img/squirrel-ulm-garden-summer-162061.jpeg);
 }
 
 .parallelogram {
@@ -84,24 +86,25 @@ nav .btn{
   position: absolute;
   left: 50%;
   width: 40%;
-  background: rgb(146,208,80);
+  background:  rgb(167,207,139);
   transform: skew(17deg);
   height: 400px;
+  box-shadow:-3px 0px 0px 0px #222222;
+  z-index:0;
 }
 
 .rectangle{
   display: inline-block;
   position: absolute;
-  left: 60%;
-  width: 40%;
-  height: 400px;
-  background: rgb(146,208,80);
+  left: 55%;
+  width: 45%;
   height: 400px;
 }
 
 .pLeft{
   left: 10%;
   transform: skew(-17deg);
+  box-shadow:3px 0px 0px 0px #222222;
 }
 
 .rLeft{
@@ -110,4 +113,12 @@ nav .btn{
 
 .mRight{
   float: right;
+}
+
+.main_text_box{
+  padding-top: 100px;
+}
+
+.cRight{
+  text-align: right;
 }

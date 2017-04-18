@@ -2,23 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/mainStyle.css">
-    <link rel="stylesheet" type="text/css" href="/css/indexStyle.css">
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css">
+    <title>今天不吃「樹」-自己的地球自己救</title>
   </head>
   <body>
     <header>
-      <img src="" alt="" class="img_logo">
-      <div class="tittle_bar">
-        <input type="button" value="回首頁" class="btn" href="#" />
-        <input type="button" value="最新消息" class="btn" href="#" />
-        <input type="button" value="關於我們" class="btn" href="#" />
-        <input type="button" value="更多相關" class="btn" href="#" />
-        <input type="button" value="給個贊助" class="btn" href="#" />
-        <input type="button" value="聯絡我們" class="btn" href="#" />
+      <div class="header_box_shadow">
+        <img src="" alt="" class="img_logo">
+        <div class="tittle_bar">
+          <input type="button" value="回首頁" class="btn" onclick="location.href='index.html'" />
+          <input type="button" value="最新消息" class="btn" onclick="location.href='news.html'" />
+          <input type="button" value="關於我們" class="btn" href="#" />
+          <input type="button" value="更多相關" class="btn" href="#" />
+          <input type="button" value="給個贊助" class="btn" href="#" />
+          <input type="button" value="聯絡我們" class="btn" href="#" />
+        </div>
       </div>
     </header>
     <nav>
+      <div class="nav_box_shadow"></div>
       <div class="nav_box"></div>
       <div class="nav_text">
         <div class="nav_text_box">
@@ -31,17 +34,46 @@
     <div class="main_box">
       <div class="img_main quteTrr"></div>
       <div class="parallelogram "></div>
-      <div class="rectangle"></div>
+      <div class="rectangle">
+        <div class="main_text_box">
+          <h1>你有看過這棵樹嗎？</h1>
+          <p>
+  他是我們的樹，長的超可愛的，<br>如果你沒看過，現在讓你看看。
+          </p>
+          <input type="button" value="更多可愛的樹" class="btn" href="#" />
+        </div>
+      </div>
     </div>
     <div class="main_box">
-      <div class="img_main quteTrr mRight"></div>
+      <div class="img_main moreTrr mRight"></div>
       <div class="parallelogram pLeft"></div>
-      <div class="rectangle rLeft"></div>
+      <div class="rectangle rLeft">
+        <div class="main_text_box cRight">
+          <h1>每年全球有520萬<br>公頃的樹木消失</h1>
+          <p>
+相當於1.4個臺灣面積的樹木消失。
+          </p>
+          <input type="button" value="點我了解更多" class="btn mRight" href="#" />
+        </div>
+      </div>
     </div>
     <div class="main_box">
-      <div class="img_main quteTrr"></div>
-      <div class="parallelogram "></div>
-      <div class="rectangle"></div>
+      <div class="img_main knowTrr"></div>
+      <div class="parallelogram"></div>
+      <div class="rectangle">
+        <div class="main_text_box">
+          <h1>你知道嗎？</h1>
+          <p>
+            <br>
+          </p>
+          <input type="button" value="我不知道" class="btn" href="#" />
+        </div>
+      </div>
     </div>
+    <footer>
+      <div class="footer_box_shadow">
+        <p>Copyrights@2017</p>
+      </div>
+    </footer>
   </body>
 </html>
