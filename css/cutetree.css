@@ -1,0 +1,93 @@
+nav {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/wood-nature-sun-forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav_box {
+    height: 60px;
+    width: 30%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    position: relative;
+    top: 70px;
+    left: 65%;
+    z-index: 2;
+    text-align: center;
+}
+
+.nav_box h1 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.main_box {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 4px 0px #222222;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.main_box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 600px;
+}
+
+.main_box h2 {
+    color: green;
+}
+
+.main_box_pre{
+  float: left;
+  height: 50px;
+}
+.main_box_next{
+  float: right;
+  height: 50px;
+}
+.pre_and_next{
+  display: block;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  max-width: 1200px;
+}
+.pre_and_next img{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: auto;
+  line-height: normal;
+}
+.pre_and_next h1{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  vertical-align: 30%;
+}
+
+.main_box_pre:hover{
+  background-color: white;
+}
+
+.main_box_next:hover{
+  background-color: white;
+}
