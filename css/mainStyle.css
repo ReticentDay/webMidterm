@@ -74,6 +74,7 @@ body{
 
 p{
   font: 18px/1 'Noto Sans TC', sans-serif;
+  word-break: break-all;
 }
 
 h1{
