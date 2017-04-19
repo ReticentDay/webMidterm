@@ -91,3 +91,7 @@ nav {
 .main_box_next:hover{
   background-color: white;
 }
+
+.main_box hr{
+  width: auto;
+}
