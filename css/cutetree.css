@@ -91,7 +91,38 @@ nav {
 .main_box_next:hover{
   background-color: white;
 }
-.main_box img{
-  width: 30%;
+
+.row1{
+  text-align-last: justify;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.row2{
+  text-align-last: justify;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.row1 ::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.row2 ::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.cutetree{
   display: inline-block;
+  text-align: center;
+
+}
+
+.cutetree img{
+  display: inline-block;
+  width: 100%;
+}
+
+.page{
+  text-align: center;
 }
