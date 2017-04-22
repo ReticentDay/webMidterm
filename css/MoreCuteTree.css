@@ -1,0 +1,115 @@
+nav{
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/wood-nature-sun-forest.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav_box{
+  height: 60px;
+  width: 30%;
+  background-color: #ffffff;
+  opacity:0.5;
+  position: relative;
+  top:70px;
+  left: 65%;
+  z-index:2;
+  text-align: center;
+}
+
+.nav_box h1{
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.mains{
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  min-height: 890px;
+}
+
+.main{
+  display: block;
+  margin-right: 310px;
+  min-height: 890px;
+  background-color: #ffffff;
+  border-radius:10px;
+  box-shadow:0px 3px 4px 0px #222222;
+  position: relative;
+}
+
+.main_box{
+  display: block;
+  margin: 20px 30px;
+  padding: 20px 0px;
+}
+
+.main_box_title{
+  height: 60px;
+}
+
+.main_box h1{
+  margin: 10px;
+  float: left;
+}
+
+.main_box_title p{
+  margin: 21px;
+  float: right;
+}
+.main_box img{
+  display: block;
+  width: 100%;
+}
+.main_btn_box{
+  display: block;
+  width: 100%;
+  height: 38px;
+  position:absolute;
+  bottom: 20px;
+
+}
+
+.main_btn_box .btn{
+  margin-right: 30px;
+  float: right;
+}
+
+.slid{
+  display: block;
+  width: 300px;
+  height: 890px;
+  margin-left: -310px;
+  float: right;
+  margin-top: -10px;
+}
+
+.slid_box{
+  display: block;
+  width:300px;
+  height:250px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius:10px;
+  box-shadow:0px 3px 4px 0px #222222;
+  padding: 20px 20px;
+}
+ .slid_box img{
+   display: block;
+   width: 100%;
+ }
+ .slid_box img:hover{
+   cursor: pointer;
+ }
+.slid_box h1{
+  margin: 0px;
+}
+
+.slid_box p{
+  height: 110px;
+}
