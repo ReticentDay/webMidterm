@@ -66,6 +66,11 @@ nav{
   display: block;
   width: 100%;
 }
+
+.main_box p{
+  margin-left: 6.3em;
+  text-indent: -6.3em;
+}
 .main_btn_box{
   display: block;
   width: 100%;
@@ -98,6 +103,7 @@ nav{
   border-radius:10px;
   box-shadow:0px 3px 4px 0px #222222;
   padding: 20px 20px;
+  position: relative;
 }
  .slid_box img{
    display: block;

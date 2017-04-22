@@ -119,11 +119,16 @@ nav {
 }
 .main_box a{
     text-decoration: none;
+    color: green;
+    font-weight: bold;
 }
 
 .main_box a:hover{
   text-decoration: underline;
   cursor: pointer;
+}
+.cutetree{
+  width: 330px;
 }
 .cutetree img{
   display: inline-block;
