@@ -53,6 +53,10 @@ nav {
     color: green;
 }
 
+.main_box p{
+  text-indent: 2em; 
+}
+
 .main_box_pre{
   float: left;
   height: 50px;
