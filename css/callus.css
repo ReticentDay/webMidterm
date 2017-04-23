@@ -1,0 +1,143 @@
+nav {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/wood-nature-sun-forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.nav_box {
+    height: 60px;
+    width: 30%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    position: relative;
+    top: 70px;
+    left: 65%;
+    z-index: 2;
+    text-align: center;
+}
+.nav_box h1 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.main_box1{
+  display: block;
+  width: 90%;
+  max-width: 1280px;
+  margin: 15px auto;
+  background-color: #ffffff;
+  border-radius:10px;
+  box-shadow:0px 3px 4px 0px #222222;
+  padding: 20px 30px;
+}
+.title h1{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.map{
+display: block;
+width:80%;
+max-width: 964px;
+height:auto;
+margin-left: auto;
+margin-right: auto;
+}
+.phone{
+  display:block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.phone img{
+  display: inline-block;
+  margin-right: 100px;
+}
+.phone h1 {
+  display: inline-block;
+  margin: auto;
+  margin-right: 100px;
+}
+.email{
+  display:block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.email img{
+  display: inline-block;
+  margin-right: 100px;
+}
+.email h1{
+  display: inline-block;
+  margin: auto;
+  margin-right: 100px;
+}
+.Line{
+  display:block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.Line img{
+  display: inline-block;
+  margin-right: 100px;
+}
+.Line h1{
+  display: inline-block;
+  margin: auto;
+  margin-right: 140px;
+}
+.titletext{
+  text-align: center;
+  display: block;
+}
+.box{
+  display:block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.box input{
+  display:block;
+  position: relative;
+  float: right;
+  top: auto;
+  bottom:auto;
+  bottom: 50px;
+}
+.messagebox{
+  display:block;
+  width: 80%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.messagebox input{
+  display: block;
+  position: relative;
+  float: right;
+  bottom: 50px;
+}
+button{
+  position: relative;
+  display: block;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  left:50%;
+}
