@@ -86,8 +86,10 @@ nav {
 
 .main_box_pre:hover{
   background-color: white;
+  cursor: pointer;
 }
 
 .main_box_next:hover{
   background-color: white;
+  cursor: pointer;
 }
