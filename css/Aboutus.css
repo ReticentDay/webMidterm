@@ -23,6 +23,11 @@ nav {
     margin: 0px;
     padding-top: 10px;
 }
+.main h1{
+    color: rgb(167,207,139);
+    font-style: italic;
+    font-family: sans-serif;
+}
 .main1_box{
   display: block;
   width: 90%;
@@ -70,6 +75,7 @@ nav {
 }
 .text{
   width:auto;
+  height: auto;
   overflow: auto;
   font-size: 18px;
   font-family: sans-serif;
