@@ -110,34 +110,30 @@ margin-right: auto;
   margin-right: auto;
   margin-top: 20px;
 }
+.box h1{
+	display:block;
+	width:80%;
+	position: relative;
+	margin: 10px auto;
+}
 .box input{
-  display:block;
-  position: relative;
-  float: right;
-  top: auto;
-  bottom:auto;
-  bottom: 50px;
-}
-.messagebox{
-  display:block;
-  width: 80%;
-  height:auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-.messagebox input{
-  display: block;
-  position: relative;
-  float: right;
-  bottom: 50px;
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
+    _height: 40px;
+    min-height: 40px;
+	display:block;
 }
 button{
   position: relative;
   display: block;
+  height:40px;
   border-style: solid;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
-  left:50%;
+  box-sizing: border-box;
+  width: 10%;
+  background:rgb(146,208,80);
+  text-align:center;
 }
