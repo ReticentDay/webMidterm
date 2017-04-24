@@ -39,65 +39,41 @@ margin-left: auto;
 margin-right: auto;
 text-align: center;
 }
-.map{
-display: block;
-width:80%;
-max-width: 964px;
-height:auto;
-margin-left: auto;
-margin-right: auto;
-}
-.phone{
-  display:block;
-  width: 80%;
-  height: auto;
+
+.map img{
+  display: block;
+  width:80%;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
 }
-.phone img{
-  display: inline-block;
-  margin-right: 100px;
-}
-.phone h1 {
-  display: inline-block;
-  margin: auto;
-  margin-right: 100px;
-}
-.email{
+
+.information_box{
   display:block;
   width: 80%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  height: 44px;
+  margin: 20px auto;
 }
-.email img{
-  display: inline-block;
-  margin-right: 100px;
+
+.information_box img{
+  display: block;
+  height: 44px;
+  float: left;
 }
-.email h1{
-  display: inline-block;
+
+.information_box h1 {
+  display: block;
   margin: auto;
-  margin-right: 100px;
+  float: left;
+  margin-left: 20px;
 }
-.Line{
-  display:block;
-  width: 80%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+
+.information_box pre{
+  margin: 0px;
 }
-.Line img{
-  display: inline-block;
-  margin-right: 100px;
-}
-.Line h1{
-  display: inline-block;
-  margin: auto;
-  margin-right: 140px;
-}
+
+
+
 .titletext{
   text-align: center;
   display: block;

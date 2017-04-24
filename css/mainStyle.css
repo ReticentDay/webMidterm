@@ -79,6 +79,7 @@ p{
 
 h1{
   font: 40px/1 'Noto Sans TC', sans-serif;
+  word-break: break-all;
 }
 
 header{
@@ -107,6 +108,7 @@ header .btn{
 
 .tittle_bar .btn{
   display: inline-block;
+  min-width: 92px;
 }
 
 footer{
