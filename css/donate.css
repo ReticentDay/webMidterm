@@ -54,39 +54,14 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-<<<<<<< HEAD
-=======
-.main_box1{
-  display: inline-block;
-  width: 284px;
-  height: auto;
-  margin-left:3.55%;
-  margin-right:3.55%;
-  border: think;
-  border-style: solid;
-}
->>>>>>> fb428d998bb40b6a46c9ad9436ed2a1a34d231aa
+
 .text{
   font-size: 18px;
   font-style: normal;
   font-family: sans-serif;
   text-align: center;
 }
-<<<<<<< HEAD
 .btn1 .btn{
   margin-left: auto;
   margin-right: auto;
-=======
-.picture1{
-  display: block;
-  width: 100%;
-}
-button{
-  width:285px;
-  height:88px;
-  background-color: #555555;
-  border-color: #555555;
-  font-size: 24px;
-  cursor: pointer;
->>>>>>> fb428d998bb40b6a46c9ad9436ed2a1a34d231aa
 }
