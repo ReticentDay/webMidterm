@@ -55,6 +55,11 @@ nav {
   margin-right: auto;
 }
 
+.main_box img{
+  height: 189px;
+  width: 285px;
+}
+
 .text{
   font-size: 18px;
   font-style: normal;
